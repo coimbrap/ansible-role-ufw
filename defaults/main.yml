@@ -1,4 +1,3 @@
-# defaults file for ufw
 ---
 ufw_default_incoming_policy: deny
 ufw_default_outgoing_policy: allow
@@ -10,7 +9,6 @@ ufw_rules:
     to_port: 22
     protocol: tcp
 
-# /etc/default/ufw
 ufw_etc_default_ipv6: true
 ufw_etc_default_default_input_policy: DROP
 ufw_etc_default_default_output_policy: ACCEPT

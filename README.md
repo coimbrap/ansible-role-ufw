@@ -1,6 +1,9 @@
 ## Ansible role - UFW
 
-### host_vars
+Ansible role to install and configure ufw
+
+### Example
+
 ```yaml
 ufw_rules:
 - rule: allow
@@ -17,4 +20,4 @@ GPLv3
 
 Mischa ter Smitten (based on work of weareinteractive)
 
-Forked by Elukerio admins
+Forked by Elukerio admins (Dan & Pierre Coimbra)

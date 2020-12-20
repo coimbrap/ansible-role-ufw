@@ -1,17 +1,17 @@
 ---
 galaxy_info:
   role_name: ufw
-  author: Mischa ter Smitten forked by Elukerio
-  company: Oefenweb.nl B.V. used by Elukerio
-  description: Set up ufw in Debian-like systems
+  author: Mischa ter Smitten forked by Pierre Coimbra in 2020 for Elukerio
+  description: Ansible role to install and configure ufw
   license: GPLv3
-  min_ansible_version: 2.6.0
+  min_ansible_version: 2.1
   platforms:
-    - name: All
+    - name: debian
       versions:
-        - all
+        - buster
   galaxy_tags:
     - system
     - networking
     - firewall
+    - ufw
 dependencies: []
